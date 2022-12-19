@@ -117,7 +117,7 @@ a:hover {
 
     .articleAsideSection .sectionArticle1 p::first-letter, .articleAsideSection .sectionArticle2  p::first-letter, .articleAsideSection .sectionArticle3  p::first-letter {
 
-        font-size: 200%;
+        font-size: 100%;
         color: rgb(255, 255, 255);
         float: left;
 
