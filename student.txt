@@ -2,8 +2,8 @@ Student name: Joan Mas Castella
 
 Student number: 683029
 
-Student class: ITB
+Student class: IT1B
 
-URL student GitHub website: your GitHub URL: https://JoanMasa.github.io
+URL student GitHub website: your GitHub URL: https://joanmasa.github.io
 
 URL student GitHub repository: https://github.com/JoanMasa/JoanMasa.github.io
