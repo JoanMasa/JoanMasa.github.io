@@ -10,6 +10,19 @@ ol {
     padding: 0;
 }
 
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    color: rgb(141, 57, 99);
+  }
+
+
 /* Code for desktop screen ration */
 @media screen and (min-width: 1280px) {
 
@@ -315,9 +328,6 @@ ol {
         grid-template-columns: repeat(3, auto);
         grid-row-gap: 1em;
         justify-content: space-evenly;
-
-
-
     }
 
     .contact2 {
@@ -329,7 +339,9 @@ ol {
         align-items: center;
         color: #000000;
         background-color: rgb(229, 229, 229);
-
+        border-color:rgb(0, 0, 0);
+        border-style: double;
+        border-width: 1rem;
     }
 
     .contact3 {
@@ -715,6 +727,9 @@ ol {
         align-items: center;
         color: #000000;
         background-color: rgb(229, 229, 229);
+        border-color:rgb(0, 0, 0);
+        border-style: double;
+        border-width: 1rem;
 
     }
 
@@ -1073,6 +1088,9 @@ ol {
         grid-area: 2 / 1 / 7 / 3;
         color: #000000;
         background-color: rgb(229, 229, 229);
+        border-color:rgb(0, 0, 0);
+        border-style: double;
+        border-width: 1rem;
     }
 
     .contact3 {
