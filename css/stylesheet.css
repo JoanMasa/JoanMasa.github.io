@@ -12,15 +12,15 @@ ol {
 
 a:link {
     color: rgb(0, 0, 0);
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: rgb(0, 0, 0);
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: rgb(141, 57, 99);
-  }
+}
 
 
 /* Code for desktop screen ration */
@@ -112,6 +112,16 @@ a:link {
     .articleAsideSection .sectionArticle1 {
         padding: 1em;
         padding-bottom: 3em;
+
+    }
+
+    .articleAsideSection .sectionArticle1 p::first-letter, .articleAsideSection .sectionArticle2  p::first-letter, .articleAsideSection .sectionArticle3  p::first-letter {
+
+        font-size: 200%;
+        color: rgb(255, 255, 255);
+        float: left;
+
+
     }
 
 
@@ -347,7 +357,7 @@ a:link {
         align-items: center;
         color: #000000;
         background-color: rgb(229, 229, 229);
-        border-color:rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
         border-style: double;
         border-width: 1rem;
     }
@@ -413,7 +423,7 @@ a:link {
 
 
 }
-    
+
 
 /* Code for table screen ratio */
 @media only screen and (max-width: 1279px) and (min-width: 481px) {
@@ -736,7 +746,7 @@ a:link {
         align-items: center;
         color: #000000;
         background-color: rgb(229, 229, 229);
-        border-color:rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
         border-style: double;
         border-width: 1rem;
 
@@ -1097,7 +1107,7 @@ a:link {
         grid-area: 2 / 1 / 7 / 3;
         color: #000000;
         background-color: rgb(229, 229, 229);
-        border-color:rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
         border-style: double;
         border-width: 1rem;
     }
