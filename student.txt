@@ -4,6 +4,6 @@ Student number: 683029
 
 Student class: ITB
 
-URL student GitHub website: your GitHub URL: https://github.com/JoanMasa
+URL student GitHub website: your GitHub URL: https://JoanMasa.github.io
 
-URL student GitHub repository: https://github.com/JoanMasa/Webmarkup-Master
+URL student GitHub repository: https://github.com/JoanMasa/JoanMasa.github.io
