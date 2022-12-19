@@ -1,0 +1,1136 @@
+/* basic styling for the whole website */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bba0a0;
+}
+
+/* removing padding from all ordered lists */
+
+ol {
+    padding: 0;
+}
+
+/* Code for desktop screen ration */
+@media screen and (min-width: 1280px) {
+
+    /* hamburger navigation */
+    .ham-nav {
+        display: none;
+    }
+
+    /* Desktop Navigation */
+    .WebsiteHeaderDesktopVersion {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+
+    }
+
+    .WebsiteHeaderDesktopVersion img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+
+    }
+
+    .WebsiteTitle {
+        flex: 1;
+        order: 2;
+
+    }
+
+    .WebsitePayoff {
+        flex: 1;
+        order: 3;
+    }
+
+    /* Styling for nav bar */
+
+    .navigationSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 2em;
+        background-color: #000000;
+    }
+
+    .nav-links li {
+        display: flex;
+        display: inline-block;
+        padding: 0 20px;
+
+
+    }
+
+    .nav-links li a {
+        color: #ffffff;
+    }
+
+    /* Promovideo styling */
+
+    .promoVIDEO {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Styling for articles  */
+
+    .articleAsideSection {
+        display: flex;
+        max-width: 100%;
+
+    }
+
+    .sectionIndexMain {
+        flex: 0 100%;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .asds {
+        flex: 0 30%;
+        height: 100px;
+        padding: 20px;
+
+    }
+
+    .articleAsideSection .sectionArticle1 {
+        padding: 1em;
+    }
+
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        float: right;
+        padding-left: 1em;
+        padding-bottom: 3em;
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        float: right;
+        padding-left: 1em;
+        padding-bottom: 3em;
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        float: right;
+        padding-left: 1em;
+        padding-bottom: 3em;
+    }
+
+    /* Styling for section in product page */
+    .sectionWrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+
+    }
+
+    .two {
+        grid-area: 1 / 1 / 3 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+
+    .five {
+        grid-area: 3 / 1 / 8 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 5em;
+    }
+
+    .three {
+        grid-area: 1 / 3 / 4 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .six {
+        grid-area: 7 / 2 / 8 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .one {
+        grid-area: 1 / 2 / 7 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 5em;
+    }
+
+
+    .four {
+        grid-area: 4 / 3 / 7 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    /* Styling for aside in product page */
+    .AsideWrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        padding-bottom: 2em;
+        padding-top: 1em;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    .as1 {
+        grid-area: 1 / 1 / 3 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as1 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as2 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as3 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as2 {
+        grid-area: 1 / 2 / 3 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as3 {
+        grid-area: 1 / 3 / 3 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    /* Styling for content of pricing page */
+    .pricingContentWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, auto);
+        padding-bottom: 2em;
+        padding-top: 1em;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    .UContent {
+        grid-area: 2 / 3 / 8 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 0;
+    }
+
+    .contact3 ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    /* styling for table */
+    .tableContent {
+        grid-area: 2 / 1 / 8 / 3;
+        color: #000000;
+        text-align: center;
+        background-color: rgb(229, 229, 229);
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .tableContent, td, th {
+        border: 2px solid;
+    }
+
+    /* styling for contact page */
+
+    .contactWrapper {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-row-gap: 1em;
+        justify-content: space-evenly;
+
+
+
+    }
+
+    .contact2 {
+        grid-area: 2 / 1 / 7 / 3;
+        display: grid;
+        height: 20em;
+        padding-left: 5em;
+        padding-right: 5em;
+        align-items: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+
+    }
+
+    .contact3 {
+        grid-area: 2 / 3 / 7 / 4;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 0;
+    }
+
+    /* styling for aside section in contact page */
+
+    .asideContact1 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 30px;
+    }
+
+    .asideContact2 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 30px;
+    }
+
+    .asideContact3 img {
+        height: 13em;
+        width: 13em;
+        background-size: contain;
+        padding: 30px;
+    }
+
+    /* styling for footer and copyright */
+
+    .endpage {
+        font-family: 'Notable';
+        float: right;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        background-color: #F9F7ED;
+        color: #fa0;
+        opacity: 50%;
+    }
+
+
+    .endpage .cookies {
+        font-family: 'Notable';
+        position: fixed;
+        bottom: 0;
+        right: 0;
+
+    }
+
+    .tableAsiders {
+        display: none;
+    }
+
+
+}
+    
+
+/* Code for table screen ratio */
+@media only screen and (max-width: 1279px) and (min-width: 481px) {
+
+    /* styling for hamburger nav */
+    .ham-nav {
+        display: none;
+    }
+
+    /* styling for desktop nav */
+    .WebsiteHeaderDesktopVersion {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+
+    .WebsiteHeaderDesktopVersion img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+
+    }
+
+    .WebsiteTitle {
+        flex: 1;
+        order: 2;
+    }
+
+    .WebsitePayoff {
+        flex: 1;
+        order: 3;
+    }
+
+    /* styling for navbar */
+    .navigationSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        background-color: #000000;
+    }
+
+    .nav-links li {
+        display: flex;
+        display: inline-block;
+        padding: 0 20px;
+
+    }
+
+    .nav-links li a {
+        color: #ffffff;
+    }
+
+    .tableAsiders {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    /* promo video styling */
+
+    .promoVIDEO {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* index page styling */
+
+    .articleAsideSection {
+        display: flex;
+        max-width: 100%;
+
+    }
+
+    .sectionIndexMain {
+        flex: 0 100%;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .asds {
+        flex: 0 30%;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .articleAsideSection .sectionArticle1 {
+        padding: 4em;
+    }
+
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        float: left;
+
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        padding: 4em;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        float: left;
+
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        padding: 4em;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        float: left;
+
+    }
+
+    .articleAsideSection .asds {
+        display: none;
+    }
+
+    /* section in index page styling */
+
+    .sectionWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+
+    }
+
+    .one {
+        grid-area: 1 / 1 / 3 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .two {
+        grid-area: 1 / 2 / 4 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .three {
+        grid-area: 4 / 2 / 7 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .five {
+        grid-area: 3 / 1 / 7 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .six {
+        grid-area: 7 / 1 / 9 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .four {
+        display: none;
+    }
+
+    /* aside in product page styling */
+
+    .AsideWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        padding-bottom: 2em;
+        padding-top: 1em;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    .as1 {
+        grid-area: 1 / 1 / 3 / 2;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as2 {
+        grid-area: 1 / 2 / 3 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as3 {
+        display: none;
+    }
+
+    .as1 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as2 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as3 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+
+    /* pricing page styling */
+    .pricingContentWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    /* innovation article stylings */
+    .articleInnovation {
+        grid-area: 1 / 1 / 2 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    /* aside content styling */
+    .UContent {
+        grid-area: 8 / 1 / 10 / 3;
+        text-align: center;
+        color: #000000;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .UContent ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    /* table of pricing page styling */
+    .tableContent {
+        grid-area: 2 / 1 / 8 / 3;
+        color: #000000;
+        text-align: center;
+        background-color: rgb(229, 229, 229);
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .tableContent, td, th {
+        border: 2px solid;
+    }
+
+    .UContent .asideOne {
+        display: none;
+    }
+
+    /* contact page styling */
+    .contactWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-row-gap: 1em;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        justify-content: space-evenly;
+
+
+    }
+
+
+    .contact2 {
+        grid-area: 2 / 1 / 8 / 2;
+        display: grid;
+        height: 20em;
+        padding-left: 3em;
+        padding-right: 3em;
+        align-items: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+
+    }
+
+    .contact3 {
+        grid-area: 2 / 2 / 8 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 0;
+    }
+
+    /* contact img styling  */
+    .asideContact1 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 20px;
+    }
+
+    .asideContact2 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 20px;
+    }
+
+    .asideContact3 img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 20px;
+    }
+
+    /* footer styling and copyright styling */
+
+    .endpage {
+        background-color: #FA0;
+        opacity: 50%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .endpage p {
+        float: left;
+    }
+
+    .endpage .cookies {
+        width: 20%;
+        float: right;
+        padding-left: 20px;
+    }
+
+}
+
+/* Code for phone screen ration */
+@media only screen and (max-width: 480px) {
+
+    /* styling of desktop nav  */
+    .WebsiteHeaderDesktopVersion {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: #ffffff;
+    }
+
+    .WebsiteHeaderDesktopVersion h1 {
+        font-size: 20px;
+    }
+
+    .WebsiteHeaderDesktopVersion h2 {
+        font-size: 20px;
+    }
+
+    .WebsiteHeaderDesktopVersion .logo {
+
+        display: none;
+    }
+
+    /* styling for ham nav */
+    .WebsiteHeaderDesktopVersion .ham-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .WebsiteHeaderDesktopVersion .ham-nav .hamnavIMG {
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .WebsiteHeaderDesktopVersion .dropdown-content {
+        display: none;
+
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+
+    }
+
+
+    .WebsiteHeaderDesktopVersion .ham-nav:hover .dropdown-content {
+        display: block;
+    }
+
+    /* navbar styling */
+    .navigationSection {
+        display: none;
+
+    }
+
+    .nav-links li {
+        display: none;
+
+    }
+
+    .tableAsiders {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    /* promovideo styling */
+
+    .promoVIDEO {
+        display: none;
+    }
+
+    /* index page styling */
+
+    .articleAsideSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articleAsideSection .sectionArticle1 {
+        flex: 1;
+        order: 3;
+    }
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        flex: 1;
+        order: 2;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        flex: 1;
+        order: 1;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
+    }
+
+    .articleAsideSection .asds {
+        display: none;
+    }
+
+    /* product page styling */
+    .sectionWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, auto);
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+
+    }
+
+    .five {
+        grid-area: 1 / 1 / 4 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .three {
+        grid-area: 4 / 1 / 7 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .two {
+        grid-area: 7 / 1 / 10 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .one {
+        grid-area: 10 / 1 / 13 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .six {
+        display: none;
+    }
+
+    .four {
+        display: none;
+    }
+
+    /* aside in product page styling */
+
+    .AsideWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    .as1 {
+        grid-area: 1 / 1 / 2 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as2 {
+        grid-area: 2 / 1 / 3 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as3 {
+        grid-area: 3 / 1 / 4 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .as1 img {
+        height: 8em;
+        width: 8em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as2 img {
+        height: 8em;
+        width: 8em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .as3 img {
+        height: 8em;
+        width: 8em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    /* pricing page styling */
+
+    .pricingContentWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    .articleInnovation {
+        display: none;
+    }
+
+    /* aside content styling */
+    .UContent {
+        grid-area: 7 / 1 / 11 / 3;
+        text-align: center;
+        color: #000000;
+        padding-left: 0px;
+    }
+
+    .UContent ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    /* table styling for pricing page */
+    .tableContent {
+        grid-area: 1 / 1 / 7 / 3;
+        color: #000000;
+        text-align: center;
+        background-color: rgb(229, 229, 229);
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .tableContent, td, th {
+        border: 2px solid;
+    }
+
+    /* Contact page styling */
+
+    .contactWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+
+    }
+
+    .contact2 {
+        grid-area: 2 / 1 / 7 / 3;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+    }
+
+    .contact3 {
+        grid-area: 7 / 1 / 11 / 3;
+        text-align: center;
+        color: #000000;
+        background-color: rgb(229, 229, 229);
+        padding: 0;
+    }
+
+    /* aside images in contact page styling */
+
+    .asideContact1 img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideContact2 img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideContact3 img {
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    /* footer styling */
+
+    .endpage {
+        background-color: #FA0;
+        opacity: 50%;
+        padding: 10px;
+        text-align: center;
+        font-size: 11px;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .endpage p {
+        float: left;
+    }
+
+    .endpage .cookies {
+        width: 20%;
+        float: right;
+        padding-left: 20px;
+    }
+
+
+}
