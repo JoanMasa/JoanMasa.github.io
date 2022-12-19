@@ -111,6 +111,7 @@ a:link {
 
     .articleAsideSection .sectionArticle1 {
         padding: 1em;
+        padding-bottom: 3em;
     }
 
 
@@ -125,6 +126,8 @@ a:link {
 
     .articleAsideSection .sectionArticle2 {
         padding: 1em;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
 
     .articleAsideSection .sectionArticle2 img {
@@ -138,6 +141,8 @@ a:link {
 
     .articleAsideSection .sectionArticle3 {
         padding: 1em;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
 
     .articleAsideSection .sectionArticle3 img {
@@ -398,6 +403,7 @@ a:link {
         position: fixed;
         bottom: 0;
         right: 0;
+        z-index: 9999;
 
     }
 
